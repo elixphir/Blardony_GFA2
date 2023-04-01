@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div id="content">
+            <h1 id="header">Calculator</h1>
+            <h4 id="instruction">To begin calculating, input two (2) numbers, then select an operation.</h4>
+            <input type="number" id="num1" value="0">
+            <input type="number" id="num2" value="0">
+            <div class="buttons">
+                <button onclick="addFunc()" id="button1">+</button>
+                <button onclick="subtractFunc()" id="button2">-</button>
+                <button onclick="multiplyFunc()" id="button3">*</button>
+                <button onclick="divideFunc()" id="button4">/</button>
+                <button onclick="remainderFunc()" id="button5">%</button>
+            </div>
+            <p id="results">Results will be displayed here.</p>
+        </div>
+    </div>
+</body>
+</html>
